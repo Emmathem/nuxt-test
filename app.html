@@ -1,0 +1,21 @@
+<!doctype html>
+<html {{ HTML_ATTRS }}>
+<head HEAD_ATTRS>
+  {{ HEAD }}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPC3JZNQ2C"></script>
+  <script>
+    // const G_TAG_ID = 'G-Y2VC7G0EHG'; // Production
+    // const G_TAG_ID = 'G-JB5LWR2RRW'; // Staging
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    // G-Y2VC7G0EHG
+    gtag('config', 'G-NPC3JZNQ2C');
+  </script>
+</head>
+<body {{ BODY_ATTRS }}>
+{{ APP }}
+</body>
+</html>
