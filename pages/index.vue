@@ -6,6 +6,11 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  head() {
+    return {
+      title: 'Welcome to my page'
+    }
+  },
 }
 </script>
