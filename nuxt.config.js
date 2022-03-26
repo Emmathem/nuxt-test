@@ -15,6 +15,16 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'This is the description of the meta' },
+      { hid: 'og:url', property: 'og:url', name: 'url', content:'https://nuxt-vue-test-git-improvement-emmathem.vercel.app/' },
+      { hid: 'og:type', property: 'og:type', name: 'type', content:'Welcome to Nuxt' },
+      { hid: 'og:title', property: 'og:title', name: 'type', content:'website' },
+      { hid: 'og:description', property:"og:description", name: 'description', content:'This is the description of the meta' },
+      { hid: 'og:image', property:"og:image", name: 'image', content:'/favicon.ico' },
+      { hid: 'twitter:url', property: 'twitter:url', name: 'url', content:'https://nuxt-vue-test-git-improvement-emmathem.vercel.app/' },
+      { hid: 'twitter:type', property: 'twitter:type', name: 'type', content:'Welcome to Nuxt' },
+      { hid: 'twitter:title', property: 'twitter:title', name: 'type', content:'website' },
+      { hid: 'twitter:description', property:"twitter:description", name: 'description', content:'This is the description of the meta' },
+      { hid: 'twitter:image', property:"twitter:description", name: 'image', content:'/favicon.ico' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
