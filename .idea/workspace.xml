@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4df6ca1-e242-4e30-9739-de6d0964df2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Tutorial.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
@@ -43,7 +44,7 @@
       <workItem from="1647282633397" duration="32000" />
       <workItem from="1647282675493" duration="278000" />
       <workItem from="1647285453712" duration="1289000" />
-      <workItem from="1648312958914" duration="184000" />
+      <workItem from="1648312958914" duration="1535000" />
     </task>
     <servers />
   </component>
