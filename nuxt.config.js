@@ -121,11 +121,21 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
+  googleAnalytics: {
+    // id: 'UA-XXX-X',
+    id: 'G-NPC3JZNQ2C',
+    layer: 'dataLayer',
+    pageTracking: true,
+    autoTracking: {
+      screenview: true,
+    },
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
