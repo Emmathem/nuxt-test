@@ -62,11 +62,12 @@ export default {
         name: 'image',
         content: '/favicon.png',
       },
+      {hid: 'og:locale', property: 'og:locale', name: 'locale', content: 'en_US'},
       {
         hid: 'twitter:card',
         property: 'twitter:card',
         name: 'card',
-        content: 'finance',
+        content: 'summary',
       },
       {
         hid: 'twitter:title',
