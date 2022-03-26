@@ -60,8 +60,7 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         name: 'image',
-        content:
-            'https://res.cloudinary.com/emmathem-media-company/f_auto,c_limit,w_3840,q_auto/frontend-picture_e8bcqj.jpg',
+        content: '/favicon.png',
       },
       {
         hid: 'twitter:url',
@@ -87,8 +86,7 @@ export default {
         hid: 'twitter:image',
         property: 'twitter:image',
         name: 'image',
-        content:
-            'https://res.cloudinary.com/emmathem-media-company/f_auto,c_limit,w_3840,q_auto/frontend-picture_e8bcqj.jpg',
+        content: '/favicon.png',
       },
       { 'http-equiv': 'expires', content: '43200' },
     ],
