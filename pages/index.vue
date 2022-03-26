@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>Welcome here</div>
+  <div class="t-h-screen">
+    <div class="t-flex t-justify-center t-p-5">Welcome here</div>
   </div>
 </template>
 
