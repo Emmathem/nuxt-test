@@ -130,6 +130,11 @@ export default {
       screenview: true,
     },
   },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: 'G-NPC3JZNQ2C',
+    },
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
