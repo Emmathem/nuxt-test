@@ -40,7 +40,9 @@ export default {
         property: 'og:url',
         content: 'https://leatherback.co/',
       },
-      { hid: 'og:type', property: 'og:type', name: 'og:type', content: 'finance' },
+      { hid: 'og:type', property: 'og:type', content: 'finance' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Leatherback Ltd' },
+      { hid: 'og:image:alt', property: 'og:image:alt', content: 'LBT Logo' },
       {
         hid: 'og:title',
         property: 'og:title',
