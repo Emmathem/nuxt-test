@@ -60,7 +60,7 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         name: 'image',
-        content: 'https://leatherbackstorage.blob.core.windows.net/frontend/brand/favicon.png',
+        content: 'https://leatherbackstorage.blob.core.windows.net/frontend/brand/LB-Logo-Blue.png',
       },
       {hid: 'og:locale', property: 'og:locale', name: 'locale', content: 'en_US'},
       {
@@ -87,7 +87,7 @@ export default {
         hid: 'twitter:image',
         property: 'twitter:image',
         name: 'image',
-        content: 'https://leatherbackstorage.blob.core.windows.net/frontend/brand/favicon.png',
+        content: 'https://leatherbackstorage.blob.core.windows.net/frontend/brand/LB-Logo-Blue.png',
       },
       { 'http-equiv': 'expires', content: '43200' },
     ],
