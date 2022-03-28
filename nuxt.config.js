@@ -38,20 +38,20 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        name: 'url',
+        name: 'og:url',
         content: 'https://leatherback.co/',
       },
-      { hid: 'og:type', property: 'og:type', name: 'type', content: 'website' },
+      { hid: 'og:type', property: 'og:type', name: 'og:type', content: 'finance' },
       {
         hid: 'og:title',
         property: 'og:title',
-        name: 'title',
+        name: 'og:title',
         content: 'Leatherback - Fastest Crossborder Payments.',
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        name: 'description',
+        name: 'og:description',
         content:
             'Simplifying Global Trade for individuals and businesses across the globe. Leatherback moves your money from one continent to another with ease.\n' +
             'Anytime, Anywhere, and to almost Everywhere.',
@@ -59,10 +59,11 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        name: 'image',
+        name: 'og:image',
         content: 'https://leatherbackstorage.blob.core.windows.net/frontend/brand/LB-Logo-Blue.png',
       },
-      {hid: 'og:locale', property: 'og:locale', name: 'locale', content: 'en_US'},
+      { hid: 'fb:app_id', property: 'fb:app_id', name: 'fb:app_id', content: '' },
+      { hid: 'og:locale', property: 'og:locale', name: 'locale', content: 'en_US'},
       {
         hid: 'twitter:card',
         property: 'twitter:card',
