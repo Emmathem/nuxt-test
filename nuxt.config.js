@@ -41,7 +41,7 @@ export default {
         name: 'url',
         content: 'https://leatherback.co/',
       },
-      { hid: 'og:type', property: 'og:type', name: 'type', content: 'finance' },
+      { hid: 'og:type', property: 'og:type', name: 'type', content: 'website' },
       {
         hid: 'og:title',
         property: 'og:title',
