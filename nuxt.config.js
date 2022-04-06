@@ -133,6 +133,9 @@ export default {
     googleAnalytics: {
       id: 'G-NPC3JZNQ2C',
     },
+    gtm: {
+      id: 'GTM-K4L43TD'
+    }
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -144,7 +147,11 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'GTM-K4L43TD', // Used as fallback if no runtime config is provided
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
